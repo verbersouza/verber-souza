@@ -195,3 +195,11 @@ h2 { font-size: 64px; font-weight: 800; letter-spacing: -0.04em; line-height: 1;
   * { animation: none !important; transition: none !important; }
   html { scroll-behavior: auto; }
 }
+
+/* Páginas internas */
+.page-top .sec-body { padding-top: 56px; }
+.page-title { font-size: 64px; font-weight: 800; letter-spacing: -0.04em; line-height: 1; }
+@media (max-width: 900px) {
+  .page-top .sec-body { padding-top: 24px; }
+  .page-title { font-size: 34px; }
+}
